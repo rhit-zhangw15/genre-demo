@@ -1,13 +1,3 @@
----
-title: "Video Game Genre Predictor"
-emoji: "🎮"
-colorFrom: "purple"
-colorTo: "pink"
-sdk: "docker"
-app_port: 7860
-pinned: false
----
-
 # Video Game Genre Classifier
 
 **Predict video game genres from cover images using deep learning**
@@ -182,7 +172,7 @@ CSSE_Local_Demo/                       # Main demo folder
 └── best_model.pth                     # Best trained model weights
 
 ../data_splits_dedup_80_20/            # Final dataset
-├── train/                             ## Training images (80%)
+├── train/                             # Training images (80%)
 │   ├── fighting/
 │   ├── indie/
 │   ├── platform/
